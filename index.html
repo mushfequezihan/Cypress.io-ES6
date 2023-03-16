@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>ECMAScript</title>
+    <style>
+        #box {
+            display: flex;
+            justify-content: space-around;
+        }
+
+        #box>div {
+            height: 5em;
+            width: 5em;
+            background-color: purple;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Working with ECMAScript</h1>
+    <script type="text/javascript">
+        console.log("How let works ->");
+        //var vs let -> block content creating variable
+      
+        var topic = "JavaScript";
+
+        if (topic) {
+            let topic = "ECMAScript";
+            console.log("block", topic);
+        }
+        console.log("global", topic);
+
+        console.log("");
+    </script>
+
+    <h1>Let</h1>
+    <div id="box"></div>
+    <script type="text/javascript">
+        console.log("How let works lets you change inside block ->");
+        //var vs let -> let allows you to change block variable
+        var div;
+        var box = document.getElementById("box");
+
+        for (let i = 1; i < 6; i++) {
+            div = document.createElement("div");
+            div.onclick = function () {
+                alert("this is box # " + i);
+            }
+            box.appendChild(div);
+        }
+
+        console.log("");
+    </script>
+
+    <h1>Const</h1>
+    <script type="text/javascript">
+        console.log("const ->");
+        //constant variable to not change it in commandline while loading 
+        const pizza = true;
+        console.log(pizza);
+
+        console.log("");
+    </script>
+
+    <h1>Template Strings</h1>
+    <h1>Searching Strings ...more in scripts and in log</h1>
+    <script type="text/javascript" src="script.js"></script>
+    <script type="text/javascript" src="objects.js"></script>
+    <script type="text/javascript" src="func.js"></script>
+    <script type="text/javascript" src="async.js"></script>
+</body>
+
+</html>
