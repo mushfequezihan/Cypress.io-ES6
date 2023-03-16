@@ -17,5 +17,4 @@ Writing and searching strings, Writing maps, Destructuring arrays, Searching arr
 Iterating with the for/of loop, Getting and setting class values, Using ECMAScript functions, Building and returning promises, 
 Using async/await syntax.
 
-*index.html has all output in webpage and in console.
-*all the .js scripts are embedded in index.html under <script/> tag.
+*index.html has all output in webpage and in console and all the .js scripts are embedded in index.html under <script/> tag.
