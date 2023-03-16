@@ -1,4 +1,6 @@
-# ECMAScript-6-ES6-
+# ECMAScript-6-ES6  
+
+ECMA (European Computer Manufacturers Association)
 
 ECMAScript—the standardized version of JavaScript—keeps getting more powerful. The new keywords and operators that can help simplify code.
 
